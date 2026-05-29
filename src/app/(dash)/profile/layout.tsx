@@ -1,6 +1,11 @@
 import SideBar from "@/component/SideBar";
+import { ReactNode } from "react";
 
-const layout = ({children}) => {
+interface LayoutProps {
+    children: ReactNode
+}
+
+const layout = ({children}: LayoutProps) => {
     return (
         <div className="flex">
 
