@@ -4,7 +4,6 @@ const page = () => {
   return (
     <div>
       Hello Umayer umayer
-      
     </div>
   );
 };
